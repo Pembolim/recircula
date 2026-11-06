@@ -1,0 +1,36 @@
+RECIRCULA - VERSÃO SIMPLES (PROJETO ESCOLAR)
+
+Esta versão foi reescrita para parecer um projeto de 3 alunos iniciantes.
+Ela é um projeto reduzido, não uma cópia com todas as funções da etapa 15.
+
+FUNÇÕES:
+- Página inicial com busca de objetos
+- Cadastro de usuário
+- Login e logout
+- Publicar anúncio de doação ou troca
+- Ver e excluir os próprios anúncios
+
+O QUE FOI RETIRADO:
+Chat, solicitações, avaliações, pontos, ranking, notificações, favoritos,
+painel administrativo, fotos e outras funcionalidades avançadas.
+
+COMO USAR NO XAMPP:
+1. Extraia a pasta ReCircula_Simples para C:\\xampp\\htdocs\\
+2. Inicie Apache e MySQL no painel do XAMPP.
+3. Acesse http://localhost/phpmyadmin
+4. Clique em Importar e selecione database.sql.
+5. Acesse http://localhost/ReCircula_Simples/
+
+O banco desta versão chama recircula_simples e NÃO altera o banco
+recircula da versão antiga.
+
+DIVISÃO DE TRABALHO SUGERIDA:
+Aluno 1: HTML e CSS (visual, cabeçalho, rodapé, página inicial).
+Aluno 2: PHP de cadastro, login e sessões.
+Aluno 3: Banco MySQL e PHP de anúncios.
+
+OBSERVAÇÃO:
+Mantivemos proteção básica: senhas com hash, consultas preparadas,
+escapamento de HTML e token para formulários. Isso é importante mesmo
+em um projeto simples. Para colocar na internet, seria preciso testar
+e reforçar a segurança antes de receber usuários reais.

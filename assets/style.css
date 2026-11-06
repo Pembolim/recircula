@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f5faf5; color: #243324; }
+header { background: #237a43; color: white; padding: 18px 7%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+header h2 { margin: 0; }
+a { color: inherit; text-decoration: none; }
+nav { display: flex; gap: 15px; flex-wrap: wrap; }
+main { max-width: 1050px; margin: 30px auto; padding: 0 18px; min-height: 70vh; }
+.destaque { background: #d9f2de; border-radius: 12px; padding: 32px; }
+.destaque h1 { margin-top: 0; }
+.busca { display: flex; gap: 10px; margin: 24px 0; }
+input, textarea, select { padding: 11px; border: 1px solid #bbb; border-radius: 6px; font: inherit; width: 100%; }
+button { border: 0; border-radius: 6px; background: #237a43; color: white; padding: 11px 18px; cursor: pointer; }
+.busca input { flex: 1; }
+.busca button { width: auto; }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+.cartao { background: white; padding: 18px; border-radius: 10px; border: 1px solid #dce7dc; overflow-wrap: anywhere; }
+.formulario { max-width: 440px; display: grid; gap: 16px; background: white; padding: 24px; border-radius: 10px; }
+.formulario label { display: grid; gap: 6px; }
+textarea { min-height: 100px; }
+.erro { color: #a52424; }
+.perigo { background: #b72e2e; }
+footer { text-align: center; background: #e2eee2; padding: 20px; margin-top: 40px; }
+@media(max-width: 600px) { .busca { flex-direction: column; } }
